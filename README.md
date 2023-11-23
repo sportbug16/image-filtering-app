@@ -12,7 +12,8 @@ We haven't reused any existing code and have taken help of library documentation
 
 ## POPL Aspects:
 **1)Better error handling in Rust over C++:** 
-Rust: Uses expect for error handling, which panics with a custom error message if the image fails to open. ![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/abf30726-3a2e-439d-9c49-249fd6b81602)
+Rust: Uses expect for error handling, which panics with a custom error message if the image fails to open. 
+![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/abf30726-3a2e-439d-9c49-249fd6b81602)
 
 C++: Uses traditional error-checking with if (img.empty()) and printing an error message.
 ![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/c4ba4f38-2172-40ad-8aef-53243f75e682)
@@ -33,11 +34,13 @@ C++: Manual memory management can lead to memory-related bugs, such as memory le
 Rust: Benefits from the Cargo package manager, which simplifies dependency management and provides a centralized repository for packages.
 ![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/3ce32691-9983-4b54-939c-d4a42fe57473)
 
-C++: Dependency management often involves manual download and configuration of libraries, which can be more error-prone.![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/f2e3a224-4eb1-4bc3-afb0-3279060603b6)
+C++: Dependency management often involves manual download and configuration of libraries, which can be more error-prone.
+![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/f2e3a224-4eb1-4bc3-afb0-3279060603b6)
 
 
 **6)Concurrency with Ownership:**
-Rust: Uses ownership and Arc (atomic reference counting) to safely share data (img_arc and output_image_arc) among multiple threads. ![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/c8ac8084-bbc0-4841-ac6c-d23eef495d47)
+Rust: Uses ownership and Arc (atomic reference counting) to safely share data (img_arc and output_image_arc) among multiple threads. 
+![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/c8ac8084-bbc0-4841-ac6c-d23eef495d47)
 
 C++: Manually clones img and shares the data among threads. Ownership semantics are less explicit and rely on developers' careful management.
 
