@@ -1,0 +1,8 @@
+Who did What work?
+We have 4 filters setup on our image filtering application. Namely-
+	1. greyscale filter - by Nakul Bhachawat ID 2021A7PS2833G
+	2. edge detection filter - by Jash Pokiya ID 2021A7PS2084G
+	3. blur filter - by Gautam Sajith ID 2021A7PS20887G
+	4. color inversion filter - by Nimitt Arora ID 2021A7PS1764G
+Each of us handled writing code, making tests and running the benchmarks for all the above filters.
+
