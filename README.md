@@ -30,7 +30,8 @@ Rust: Guarantees memory safety through ownership, borrowing, and lifetimes, redu
 C++: Manual memory management can lead to memory-related bugs, such as memory leaks or undefined behavior.
 
 **5)Package Ecosystem enabled faster running and easier use:**
-Rust: Benefits from the Cargo package manager, which simplifies dependency management and provides a centralized repository for packages.![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/3ce32691-9983-4b54-939c-d4a42fe57473)
+Rust: Benefits from the Cargo package manager, which simplifies dependency management and provides a centralized repository for packages.
+![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/3ce32691-9983-4b54-939c-d4a42fe57473)
 
 C++: Dependency management often involves manual download and configuration of libraries, which can be more error-prone.![image](https://github.com/sportbug16/image-filtering-app/assets/70038936/f2e3a224-4eb1-4bc3-afb0-3279060603b6)
 
